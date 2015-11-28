@@ -1,66 +1,13 @@
-% http://texblog.org/2012/04/25/writing-a-cv-in-latex/
+\input{src/setup.tex}
 
-\documentclass[a4paper,10pt]{article}
-
-% Imports
-\usepackage[margin=3cm]{geometry}  % Margins
-\usepackage{tabu}                  % Tables
-
-% Heading style
-\newcommand{\heading}[1]{\section*{\centering#1}}
-
-% Authoring information
-\title{\bfseries\Huge Kier Davis}
-\author{November 2015}
-\date{}
-
-% Beginning of document
 \begin{document}
 
-% Title (name and email address)
 \maketitle
 
-\hrulefill
-\vspace{1.1em}
+\input{src/contact.tex}
 
-% Info table
-{
-\newcommand{\h}[1]{\textsc{#1}:}
-\newcommand{\n}[1]{\hspace{.8em} #1}
-%\newcommand{\h}[1]{#1:}
-%\newcommand{\n}[1]{\hspace{1em} \textbf{#1}}
-\begin{tabu} to \textwidth {X[1,l] X[2,l] X[1.5,l]}
-    \h{Date of birth}  & \h{Email}                                 & \h{Term-time address}    \\
-    \n{15 Feb 1997}    & \n{\texttt{kierdavis@gmail.com}}          & \n{Room 2004B}           \\
-                       &                                           & \n{Gateway Block A} \\
-    \h{Age}            & \h{Web}                                   & \n{110 High Road}        \\
-    \n{18}             & \n{\texttt{http://kierdavis.com}}         & \n{Swaythling}           \\
-                       & \n{\texttt{https://github.com/kierdavis}} & \n{Southampton}          \\
-    \h{Nationality}    &                                           & \n{SO16 2HA}             \\
-    \n{British}        &                                           &                          \\
-\end{tabu}
-}
-
-\hrulefill
-
-% About me
-
-% Skills and experience (list things i have done)
-
-\heading{Skills and Experience}
-
-\begin{tabu} to \textwidth {X[1,l] X[5,l]}
-    Aug 2015 & k12 \\
-    Apr 2015 & SR2015 \\
-    Mar 2014 & A level computing submission \\
-    Jun 2013 & publish MC plugins \\
-    Feb 2013 & Pengower \\
-    Apr 2013 & GCSE electronics \\
-    Aug 2012 & YRS2012 \\
-    Jul 2012 & argo \\
-    May 2011 & Pop maths quiz \\
-\end{tabu}
-
-% Education
+\input{src/about.tex}
+\input{src/experience.tex}
+\input{src/education.tex}
 
 \end{document}
