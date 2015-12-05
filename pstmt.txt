@@ -1,0 +1,34 @@
+Personal statement for university application 2015
+
+
+I have been fascinated with the design and construction of complex systems for as long as I can remember, especially the devices that drive modern life: computers. It is because of my avid interest in the interaction between 
+hardware and software that I have chosen to apply for a joint course in computer science and electronic engineering.
+
+From a young age, I have endeavoured to learn as much as I can about the world of digital systems, reading everything from New Scientist magazines to Python textbooks. I aim to carry this desire for learning on throughout 
+university and later life.
+
+Having begun teaching myself to program computers at around the age of 10, I have gone on to write many complex pieces of software. These include simulators for a number of microprocessors, such as AVR and 6502, and even some of 
+my own microprocessor designs. Despite my existing experience with computer programming, I believe studying at a higher institution will enable me to refine my skills and, more importantly, contribute towards cutting-edge 
+research.
+
+My choice of A level subjects have improved my problem solving and analytical skills, which I feel will be very beneficial to me during my time at university. Through my A level Computing coursework I designed, built and tested a 
+large computer program, giving me experience of how software development is conducted in industry.
+
+Last year I attended a number of lectures organised by Birmingham University's Chemistry department. I wanted to take the opportunity to learn more about chemistry than is covered by the A level syllabus, and I was also intrigued 
+to find out more about lectures and university life.
+
+Earlier this year I participated in a small robotics competition hosted by the school. My team-mate and I were delighted to win first place in the competition, having built and programmed a Lego Mindstorms robot to locate a 
+coloured ball and carry it along a track. Robotics is a field of electronics and computer science that has particularly fascinated me, and considering the latest developments in the field (such as Google's recently announced 
+Project Wing programme) I believe it will only grow in importance over the coming years. It is for these reasons that I greatly hope to obtain a place in this year's national Student Robotics competition.
+
+In 2013 I attended a week of work experience at Pengower, a local software company who provide a platform as a service to other, non-technical companies. During this period I aided in testing the platform and used the results of 
+this testing to improve the software. I found this week to be very influential, giving me valuable industrial experience.
+
+Outside of school, I have taken part in the national Young Rewired State competition, in which teams of under-18 developers each create an application using government data. I led the development of the backend for a web 
+application that allowed users to view statistics about a postcode such as crime rates and proximity to services. My team and I were awarded Best Example of Coding for our use of a modular technique in our code, and as a prize we 
+received the parts for a 3D printer, which we assembled together over the following weeks. Overcoming the challenges we faced during both the competition and the construction of the 3D printer has further enhanced my critical 
+thinking and teamworking abilities.
+
+I hope that this personal statement demonstrates that I am a passionate learner, an able problem solver, a reliable teamworker and someone who can enthusiatically contribute to the life-changing research of the most important 
+field of our time.
+

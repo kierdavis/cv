@@ -1,0 +1,56 @@
+Application: ARM 2015 (UKESF scholarship + summer work placement)
+
+
+Work Experience - Please give details of your responsibilities and what you learnt from this experience (maximum 500 words)
+During this short placement I worked with the software development team on their Platform-as-a-Service product. I was initially tasked with using the platform to build simple web applications; this helped me to understand how the 
+platform worked and what it was capable of. Under the guidance of the software engineers, I then helped work on the platform's backend codebase, using the results of testing to improve the software. These tasks gave me valuable 
+experience of working in a professional environment and developing a product as part of a team.
+
+
+Your Degree - Tell us what aspects of your degree course you have enjoyed most and/or are looking forward to the most. Explain the reasons why and highlight modules of particular interest to you. (300 words max)
+Since starting university I have enjoyed the Digital Systems and Microprocessors module the most, as its content ranges from the fundamental concepts of number systems and logic to digital system design using HDLs. I have had a 
+strong enthusiasm for digital electronics since studying Electronics at GCSE level, and I am particularly looking forward to the section on microprocessor design; the idea of constructing a complex system from components as 
+simple as logic gates has always fascinated me.
+Looking further ahead, some of the optional modules available in the third and fourth years have caught my eye. Subjects such as SoC design, nanotechnology and quantum computing are becoming more and more important in modern 
+electronic engineering and I can't wait to learn more about them.
+
+
+Placement Objectives - Tell us what you hope to gain through a work placement with this company. What areas of technology/business are you interested in working in? Highlight particular skills/knowledge you would like to develop. 
+(300 words max)
+Whilst it is mainly the theoretical aspects of electronic engineering that I will study at university, it is only through taking on a job that I will be able to encounter the practical side of the field as well. I believe that 
+participating in an internship over the summer break each year will allow me to get work experience that will be necessary for applying for graduate employment, as well as helping to improve my team-working and organisational 
+skills. Embedded electronics has been an interest of mine ever since getting my hands on my first Arduino, and I feel this it is the perfect career path for me.
+
+
+Project Experience - Tell us about an engineering, technical or scientific project you have worked on in school, university or your own time. Describe the reason for the project (i.e. what were you trying to make, investigate or 
+solve). Summarise what it involved. Give an overview of the work you did highlighting any practical/lab work. If you have not been involved in a project, then tell us about a practical lab in school or university that you found 
+particularly interesting. (300 words max)
+I have been interested in programming and digital electronics as a hobby for a few years, and with little to do over the summer break I decided to occupy myself by designing and building a simple CPU. I opted to build it using 
+7400-series logic ICs as opposed to a using more modern development method such as a programmable logic device; it is my fascination with building complex systems out of simple components that led me to begin this project and so 
+I wanted to make this visible in the physical appearance of the project.
+I started by considering the capabilities that I wanted to implement and then went on to design the instruction set of the processor. The next step was producing schematics for the system. To help make assembly and maintenance 
+more efficient, I separated the components of the processor into separate boards, each with a particular function (e.g. registers, ALU, memory); the boards would then be mounted together and linked by removable cables.
+I aimed to have much of the physical assembly done by the end of the summer, but it took longer than expected to decide on how the components would be mounted and connected. I eventually chose to use stripboard, although this 
+required me to then write my own software for automatically routing the wires on the board (due to the lack of existing software that suited my needs).
+The project was put on hold whilst I moved in to university, but I plan on returning to it soon once I have more spare time. I have really enjoyed working on it so far and hope to see it to completion.
+[The files related to this project available online at https://github.com/kierdavis/k12 ]
+
+
+Personal Achievements - Describe a) your greatest achievement to date, b) a particular problem or challenge that you had to overcome in making that achievement and c) the approach you took in solving the problem/challenge. This 
+does not have to relate to a technical challenge but could relate to some other aspect of your life. (300 words max)
+Earlier this year I competed in the 2015 Student Robotics competition with a team of 5 other people from my school, placing sixth in the overall rankings amongst teams from around the world. The competition involved building and 
+programming a fully autonomous robot that could locate boxes in an arena and move them into a scoring zone.
+We began constructing the robot after a couple of months of design and planning, and by February had a chassis with a grabbing mechanism that we could begin to program. However, it quickly became clear that the design of the 
+robot was flawed: the grabber was too unreliable and the turning circle too large for it to be able to manuever in the tight spaces of the arena. This was a major setback since we were only a couple of months away from the final 
+competition event, and most other teams were already ahead of us with programming their robots.
+We got together and discussed various solutions to this problem, such as adding code to work around the some of the problems with the grabber, but we eventually agreed that a complete redesign of the robot would be the best 
+long-term solution. Despite being pressed for time we completed the robot in time for the competition, and finished among the top ten teams.
+
+
+Teamwork - Describe an occasion when you worked as part of a team, your role and the positive contributions that you made. (300 words max)
+Three years ago I participated in the national Young Rewired State competition, in which teams of under-18 developers each create an application using open government data. I led the development of the backend software for a web 
+application that allowed users to view statistics about a postcode, such as crime rates and proximity to services.
+After struggling with connecting all the external data services to our application, I suggested the use of modular approach to the software. This allowed each data service to be managed independently of the others, improving our 
+productivity. At the end of the week the application was presented to a panel of judges, and my team and I were awarded first prize in the Best Example of Coding category, winning a 3D printer.
+
+
