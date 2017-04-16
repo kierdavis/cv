@@ -1,6 +1,7 @@
 with import <nixpkgs> {};
 stdenv.mkDerivation {
-  name = "cv-env";
+  name = "cv";
+  src = ./.;
   buildInputs = [
     (pkgs.texlive.combine {
       inherit (pkgs.texlive) scheme-basic
@@ -16,4 +17,12 @@ stdenv.mkDerivation {
       ;
     })
   ];
+  buildPhase = ''
+    flags="-halt-on-error -file-line-error -interaction=nonstopmode"
+    pdflatex $flags -draftmode cv.tex
+    pdflatex $flags cv.tex
+  '';
+  installPhase = ''
+    install -D -m 0644 cv.pdf -t $out
+  '';
 }
