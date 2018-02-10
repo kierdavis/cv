@@ -1,0 +1,44 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: nixos/nix:latest
+    steps:
+      - run:
+          name: Install dependencies of CI script
+          command: |
+            nixflags="--no-build-output --no-out-link --show-trace --timeout 300"
+
+            function install_from_nix() {
+              pkg_name=$1
+              rel_src=$2
+              dest=$3
+
+              pkg=$(nix-build $nixflags '<nixpkgs>' -A $pkg_name)
+              src=$pkg/$rel_src
+              rm -rf $dest
+              ln -s -v $src $dest
+            }
+
+            # Install git and ssh into places where circleci's "checkout" step
+            # can find them.
+            install_from_nix git bin/git /usr/bin/git
+            install_from_nix openssh bin/ssh /usr/bin/ssh
+
+            # Install SSL certificates into a place where circleci's
+            # "store_artifacts" step can find them.
+            install_from_nix cacert etc/ssl/certs /etc/ssl/certs
+      - checkout:
+          name: Checkout project source
+      - run:
+          name: Patch source
+          command: |
+            # Ensure todonotes package has the 'disable' flag.
+            sed --in-place 's,\usepackage{todonotes},\usepackage[disable]{todonotes},' src/setup.tex
+      - run:
+          name: Build document
+          command: nix-build
+      - store_artifacts:
+          name: Store build artifact
+          path: result/cv.pdf
+          destination: cv.pdf
