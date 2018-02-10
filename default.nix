@@ -1,7 +1,7 @@
 with import <nixpkgs> {};
 stdenv.mkDerivation {
   name = "cv";
-  src = ./.;
+  src = ./src;
   buildInputs = [
     (pkgs.texlive.combine {
       inherit (pkgs.texlive) scheme-basic
