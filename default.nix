@@ -17,6 +17,7 @@ stdenv.mkDerivation {
       ;
     })
   ];
+  phases = [ "unpackPhase" "buildPhase" "installPhase" ];
   buildPhase = ''
     flags="-halt-on-error -file-line-error -interaction=nonstopmode"
     pdflatex $flags -draftmode cv.tex
